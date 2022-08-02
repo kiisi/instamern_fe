@@ -1,23 +1,10 @@
 .footer-wrapper{
     width:100%;
     display:grid;
-    place-items: center;
-    background:#000;
-    color:#fff;
-    padding:0 1rem;
+    padding:5rem 0;
+    background:lightgreen;
 }
-.footer-container{
-    height:100%;
-    width:100%;
-    max-width:98rem;
-    display:grid;
-    place-items:center;
-    padding-top:5rem;
-    padding-bottom:5rem;
-    font-size:1.6rem;
-}
-.footer p{
-    display:grid;
-    place-items: center;
-    text-align: center;
+.footer{
+    width:92%;
+    height:20rem;
 }

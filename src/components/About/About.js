@@ -1,61 +1,44 @@
 import React from 'react'
+import AboutSvg from '../../images/about_svg.svg'
 import './About.css'
-import mission from '../Images/oUR mISSION.png'
-import ethics from '../Images/oUR eTHICS rULEBOOK.png'
-import whoweare from '../Images/WHO WE ARE.png'
-import Person from './Person/Person'
-import Staffs from './Staffs/Staffs'
+
 const About = () => {
   return (
-    <div className="about-wrapper">
-      <div className="about-container">
-        <div className="about-mission-wrapper">
-          <div className="about-mission">
-            <div className="about-mission-image-wrapper">
-              <div className="about-mission-image">
-                <img src={mission} alt="mission" />
-              </div>
+    <div className="max-wrapper about-wrapper">
+      <div className="about">
+        <div className="about-content-wrapper">
+          <div className="about-content">
+            <div className="about-content-header">
+              <h1>About Us</h1>
             </div>
-            <div className="about-mission-caption"><p>To be the best at homework. As simple as that.</p></div>
-          </div>
-        </div>
-        <div className="about-ethics-wrapper">
-          <div className="about-ethics">
-            <div className="about-ethics-image-wrapper">
-              <div className="about-ethics-image">
-                <img src={ethics} alt='ethics' />
-              </div>
-            </div>
-            <div className="about-ethics-content-wrapper">
-              <div className="about-ethics-content">
-                <div className="about-ethics-content-header"><p>We manage our business responsibly. That means that:</p></div>
-                <div className="about-ethics-content-main">
-                  <ol>
-                    <li>We don't take jobs from people that are 15 or younger.</li>
-                    <li>We don't poop where we eat. That is, we don't provide our services in our home country.</li>
-                    <li>We don't risk anyone's life. We do not help out Medicine students or Civil Engineering students in structure verification calculations.</li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-         <div className="about-who">
-          <div className="about-who-image-wrapper">
-            <div className="about-who-image">
-              <img src={whoweare} alt="who we are" />
-            </div>
-          </div>
-        </div>
+            <div className="about-content-main">
+              <p>Hello I’m UI/UX Designer, a content writer and a front-end developer with
+                a trending view, high-quality and Pofessional approach and more than
+                1year. of deep experience working across UX/UI, creating UI for Websites
+                and Web apps. My years of experience include Website design, landing
+                pages, E-cormerce websites and online stores, Mobile versions of
+                websites(responsive), Presentations, banners, Email Templates, Marketing
+                materials, UI Kit, Wireframming and Prototyping, UI/UX for mobile (ios
 
-        <Person />
-        
-        <Staffs />
-        <div className="about-try">
-          <h1>And lots more!</h1>
-          <p>To work for us, email us at info.homework.guys@gmail.com</p>
-        </div> 
-     </div>
+                &amp; Andriod) and Web apps, Logo design and Branding.
+                {/* I love working on UI/UX analysis and tasks of complexity never frightened me.
+                All images, fonts and layers will be organized and prepared for the font-end
+                developer.I have an up-to-date knowledge of Web-design industry including
+                Adobe (photoshop, illustrator, XD), Figma, Marvel, Miro , Sketch, Invision App.
+
+                I have all basic knowledge related to this ground, such as Html, CSS,
+                Python and Javascript. */}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="about-image-wrapper">
+          <div className="about-image">
+            <img src={AboutSvg} alt="about_svg" />
+
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
