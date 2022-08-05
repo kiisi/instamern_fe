@@ -1,16 +1,17 @@
 import React from "react";
-import icon from "../images/icon.svg";
+import icon from "../images/glass.svg";
 import aboutPic from "../images/about-pic.svg";
 
 export default function About() {
   return (
     <div className="my-container">
       <div className="text-center">
-        <h2>
-          <span className="text-white">About</span>{" "}
-          <span className="text-blue">CeeJay</span>
           <img src={icon} alt="" />
-        </h2>
+
+        <h1 className="mb-5">
+          <span className="text-white">About</span>{" "}
+          <span className="text-white">CeeJay</span>
+        </h1>
       </div>
       <div className="d-flex mx-auto">
         <div className="flex-1">

@@ -3,15 +3,15 @@ import React from 'react'
 const Skill = () => {
     return (
 
-        <div style={{display:'flex',justifyContent:'space-around',width:'100%'}}>
+        <div className="mx-auto" style={{display:'flex',justifyContent:'space-around',width:'100%', maxWidth:'1300px'}}>
 
-            <div className="card" style={{ width: '18rem' }}>
+            <div style={{ width: '18rem' }}>
                 <div className="card-body">
                     <div className="accordion" id="accordionExample">
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingOne">
                                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Accordion Item #1
+                                    Suretrip.ng Project
                                 </button>
                             </h2>
                             <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -24,8 +24,8 @@ const Skill = () => {
 
                 </div>
             </div>
-
-            <div className="card" style={{ width: '18rem' }}>
+        <br/>
+            <div style={{ width: '18rem' }}>
                 <div className="card-body">
                     <div className="accordion" id="accordionExample">
                         <div className="accordion-item">
@@ -44,7 +44,7 @@ const Skill = () => {
                 </div>
             </div>
 
-            <div className="card" style={{ width: '18rem' }}>
+            <div style={{ width: '18rem' }}>
                 <div className="card-body">
                     <div className="accordion" id="accordionExample">
                         <div className="accordion-item">
